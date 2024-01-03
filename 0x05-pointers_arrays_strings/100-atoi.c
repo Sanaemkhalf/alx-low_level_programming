@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atoi - Convert a string to an integer
+ * _atoi - Convert a string to an integer,
  * @s: The pointer to convert
  * Return: A integer
  */
@@ -20,7 +20,7 @@ int _atoi(char *s)
 	{
 	min *= -1;
 	}
-	while (s[c] >= 4_ && s[c] <= 57)
+	while (s[c] >= 48 && s[c] <= 57)
 	{
 	isi = 1;
 	ni = (ni * 10) + (s[c] - '0');
